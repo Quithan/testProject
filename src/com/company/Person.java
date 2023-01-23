@@ -56,4 +56,7 @@ public abstract class Person implements IPayable, Comparable<Person>{
         else
             return 1;
     }
+    public int exam(int i){
+        return i++;
+    }
 }
